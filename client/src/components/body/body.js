@@ -15,7 +15,7 @@ class Body extends Component {
                     <p>Art</p>
                 </div>
                 <div className="grid4">
-                    <img src="nmc_logopng.png" alt="NMC LOGO" />
+                    <img className="logo" src="nmc_heart.png" alt="NMC LOGO" />
                 </div>
                 <div className="grid5">
                     <p>Community Post</p>
