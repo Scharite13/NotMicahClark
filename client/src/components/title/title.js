@@ -1,13 +1,14 @@
 import React, { Component } from "react";
-import './title.css';
+import './styles.title.css';
+import { Link } from 'react-router-dom';
 
 class Title extends Component {
     render(){
         return (
             <div className="title_container">
-                <div className="hero">
+                <Link className="hero" to='/'>
                     <img className="title_image" src='nmc_fulltitle.png' alt="Not Micah Clark" />    
-                </div>
+                </Link>
             </div>
         )
     }
