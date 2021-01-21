@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './styles.body.css'
 import { Link } from 'react-router-dom';
+import ContactForm from '../ContactForm/contactform';
 
 class Body extends Component {
     render(){
@@ -27,6 +28,7 @@ class Body extends Component {
                 </div>
                 <div className="grid7">
                     <h2 className="sub_title">Contact Me</h2>
+                    <ContactForm/>
                 </div>
             </div>
         )
