@@ -1,3 +1,6 @@
+.contact-container {
+}
+
 input[type='text'],
 select,
 textarea {
@@ -13,6 +16,7 @@ textarea {
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   font-size: 16px;
+  margin-right: 0px;
 }
 
 textarea {
@@ -34,4 +38,10 @@ input[type='submit']:hover {
   cursor: pointer;
   background-color: #fbe4e4;
   color: #634c54;
+}
+
+.letter-img {
+  width: 200px;
+  height: 225px;
+  transform: rotate(-55deg) translate(-75px, 185px);
 }

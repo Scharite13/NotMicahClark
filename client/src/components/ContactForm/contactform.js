@@ -6,17 +6,15 @@ function ContactForm() {
 
 
     return (
-        <div>
-            <form>
+        <div className="contact-container">
 
-               
+            
+            <img className="letter-img"  src="contact_form_imagepng.png" alt="Mail Letter Image"/>
+            <form>
                 <input type="text" id="fname" name="firstname" placeholder="Name..." />
                 <input type="text" id="email" name="email" placeholder="Email..." />
                 <textarea id="subject" name="subject" placeholder="Your message..." />
                 <input type="submit" value="Submit"/>
-
-
-
             </form>
             
            
