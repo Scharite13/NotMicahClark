@@ -1,0 +1,64 @@
+.contact-container {
+}
+
+input[type='text'],
+input[type='email'],
+select,
+textarea {
+  display: flex;
+  width: 50%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 0;
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-size: 16px;
+  margin-right: 0px;
+}
+
+textarea {
+  width: 100%;
+}
+
+input[type='submit'] {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: #634c54 solid 2px;
+  border-radius: 10px;
+  height: 25px;
+  width: 100px;
+  background-color: #634c54;
+  color: #fbe4e4;
+}
+input[type='submit']:hover {
+  cursor: pointer;
+  background-color: #fbe4e4;
+  color: #634c54;
+}
+
+/* .letter-img {
+  width: 200px;
+  height: 225px;
+  transform: rotate(-55deg) translate(-75px, 185px);
+} */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+  margin: 10px;
+}
+
+.letter-img {
+  width: 200px;
+  height: 225px;
+  align-self: flex-end;
+  z-index: 1;
+  transform: rotate(-55deg);
+  position: absolute;
+}
