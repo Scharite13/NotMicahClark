@@ -1,0 +1,10 @@
+.tile_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.art_tile {
+  width: 448.5px;
+  height: 627.5px;
+}

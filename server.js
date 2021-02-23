@@ -5,14 +5,11 @@ const app = express();
 const port = process.env.port || 5000
 
 
-app.get('/blog', (req,res) => {
-    const posts = [
-        {id: 1, title: "First Post", body: "The Body"},
-        {id: 2, title: "Second Post", body: "The Body"},
-        {id: 3, title: "Third Post", body: "The Body"}
-    ];
+app.use(express.static(path.join(__dirname, 'build')));
 
-    res.json(posts)
-})
+
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 
 app.listen(port, () => console.log(`Server started on port: ${port}`));
