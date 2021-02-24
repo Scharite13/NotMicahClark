@@ -7,7 +7,7 @@ const ArtPage = () => (
     <div>
         <Title/>
         <h1>ART</h1>
-        <ArtObject/>
+        <ArtObject />
         
     </div>
 )

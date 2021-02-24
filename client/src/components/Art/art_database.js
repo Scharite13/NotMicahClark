@@ -1,4 +1,4 @@
-let art =   [
+let arts =   [
     {
         id: 1,
         image: 'Art1.jpeg',
@@ -87,4 +87,4 @@ let art =   [
 
 
 
-export default art
+export default arts
