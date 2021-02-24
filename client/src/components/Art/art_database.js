@@ -88,3 +88,5 @@ let arts =   [
 
 
 export default arts
+
+// "proxy": "http://localhost:5000",

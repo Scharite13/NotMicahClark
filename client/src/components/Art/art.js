@@ -17,10 +17,10 @@ const ArtObject = () => {
                             <p>{art.description}</p>
                         </div>  
                     </div>
-                ))}
+                ))} 
            </div>
             
-    )
+    ) 
 }
 
 export default ArtObject;
