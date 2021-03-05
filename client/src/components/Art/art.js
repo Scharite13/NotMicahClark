@@ -8,11 +8,11 @@ const ArtObject = () => {
     return(
         <div  className="tile_container">
                 {arts.map((art) => (  
-                    <div>    
+                    <div className='grad'>    
                         <div id={art.id} className="image_container">
                             <img className="art_tile" src={art.image} alt='Tile of Art work.' />
                         </div>
-                        <div className="description_contianer"> 
+                        <div className="description_container"> 
                             <h2>{art.title}</h2>
                             <p>{art.description}</p>
                         </div>  

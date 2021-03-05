@@ -8,13 +8,14 @@ class Body extends Component {
         return (
             <div className="grid-container">
                 <div className="grid1">
-                    <h2 className="sub_title">Podcast</h2>
+                    <h2 className="sub_title">About Me</h2>
                 </div>
                 <div className="grid2">
-                    <h2 className="sub_title">Community Post</h2>
+                    <h2 className="sub_title">Donations</h2>
                 </div>
                 <div className="grid3">
                     <Link className="link sub_title" to='/art'>Art</Link>
+                    <p>Feugiat pretium nibh ipsum consequat nisl vel pretium. Sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis.</p>
                 
                 </div>
                 <div className="grid4">
@@ -22,9 +23,10 @@ class Body extends Component {
                 </div>
                 <div className="grid5">
                     <Link className="link sub_title" to='/video'>Video</Link>
+                    <p>Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Tristique nulla aliquet enim tortor at auctor. Volutpat consequat mauris nunc congue nisi vitae. Tempus imperdiet nulla malesuada pellentesque.</p>
                 </div>
                 <div className="grid6">
-                    <h2 className="sub_title">Donations</h2>
+                    <h2 className="sub_title">Podcast</h2>
                 </div>
                 <div className="grid7">
                     <h2 className="sub_title">Contact Me</h2>

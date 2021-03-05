@@ -60,18 +60,6 @@ let arts =   [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate elementum justo sed placerat.'
     },
     {
-        id: 11,
-        image: 'Art11.jpeg',
-        title: 'Leporum Ipsum',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate elementum justo sed placerat.'
-    },
-    {
-        id: 12,
-        image: 'Art12.jpeg',
-        title: 'Leporum Ipsum',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate elementum justo sed placerat.'
-    },
-    {
         id: 13,
         image: 'Art13.jpeg',
         title: 'Leporum Ipsum',
